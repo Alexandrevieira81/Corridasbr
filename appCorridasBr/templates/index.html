@@ -17,10 +17,10 @@
       {% endif %}
 
       <div class="col-8 m-auto pt-2 text-center">
-        <form name="formlogin"  method="get">
-            <input type="text" id="login" name="login" class="form-control" placeholder="Login">
+        <form name="formlogin" action="/logar" method="get">
+            <input type="text" id="request" name="request" class="form-control" placeholder="Login">
             <input type="text"  id="senha" name="senha" class="form-control" placeholder="Senha">
-             <a type="submit" href="/logar" class="btn btn-success">Logar</a>
+            <input type="submit" class="btn btn-success" value="Buscar">
 
         </form>
 
